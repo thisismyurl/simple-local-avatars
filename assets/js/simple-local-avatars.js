@@ -151,6 +151,8 @@ jQuery(document).ready(function ($) {
 	 * `mimes` allow-list passed to media_handle_upload() in
 	 * Simple_Local_Avatars::edit_user_profile_update(), so the client never
 	 * previews a file the server would reject on submit.
+	 *
+	 * @member {Array} Permitted image types.
 	 */
 	const avatar_allowed_types = ['image/jpeg', 'image/gif', 'image/png'];
 
